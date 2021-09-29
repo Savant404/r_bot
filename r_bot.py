@@ -8,11 +8,11 @@ start_time = time.time()
 
 
 # create reddit object instance
-reddit = praw.Reddit(client_id="B1Exp1wucyW2NQ",
-                     client_secret="7IAkDmmZM6CpvuzUaLWmHzzcC_YgeA",
-                     password="Honda_1995",
-                     user_agent="MGrab by u/Jelly_Man420",
-                     username="Jelly_Man420")
+reddit = praw.Reddit(client_id="#CientID Here",
+                     client_secret="#ClientSecretHere",
+                     password="#Password",
+                     user_agent="#userAgent",
+                     username="#Username")
 
 # List of Subreddits to scrape...
 subreddits = [# Add sub-reddits to scrape... Example:
